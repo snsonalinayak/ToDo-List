@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 export default function Header(props) {
+  console.log("lalala");
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">{props.title}</a>
